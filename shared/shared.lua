@@ -34,21 +34,21 @@ Shared.RadioItem = {
 
 ---@type Battery
 Shared.Battery = {
-    state = true, -- to use battery system or not
+    state = false, -- to use battery system or not
     consume = 1, -- battery consume rate
     depletionTime = 1, -- in minute, every 1 minute battery will decrease by consume value
 }
 
 ---@type [string]: string
 Shared.RadioNames = {
-    ["1"] = "MRPD CH#1", -- channel value 1
-    ["1.%"] = "MRPD CH#1", -- channel value 1.%%%% string formatter
-    ["2"] = "MRPD CH#2",
-    ["2.%"] = "MRPD CH#2",
-    ["3"] = "MRPD CH#3",
-    ["3.%"] = "MRPD CH#3",
-    ["4"] = "MRPD CH#4",
-    ["4.%"] = "MRPD CH#4",
+    ["1"] = "LOS SANTOS ", -- channel value 1
+    ["1.%"] = "LS OPS", -- channel value 1.%%%% string formatter
+    ["2"] = "Blaine County",
+    ["2.%"] = "BC OPS",
+    ["3"] = "SASP",
+    ["3.%"] = "SASP OPS",
+    ["4"] = "Fire Dept | EMS",
+    ["4.%"] = "FD EMS OPS",
     ["5"] = "MRPD CH#5",
     ["5.%"] = "MRPD CH#5",
     ["6"] = "MRPD CH#6",
